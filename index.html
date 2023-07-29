@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="Sudoku.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <h1>Sudoku Solver</h1>
+        <p>Enter the Sudoku puzzle:</p>
+        <div id="sudokuGrid" class="grid">
+            <table class="gridtb">
+            </table>
+        </div>
+        <button id="solve" type="button" onclick="solveButton()">Solve</button>
+        <button id="reset" type="button" onclick="resetButton()">Reset</button>
+        <div id="result"></div>
+        <script type="text/javascript" src="SudokuSolver.js"></script>
+    </body>
+</html>

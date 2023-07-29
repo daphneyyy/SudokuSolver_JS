@@ -1,0 +1,41 @@
+body {
+  font-family: 'Righteous';
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+table {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse;
+}
+
+input {
+  width: 90%;
+  height: 92%;
+  font-size: 20px;
+  text-align: center;
+}
+
+#result {
+  display: none;
+  font-family: 'Lobster', cursive;
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #457b9d;
+}
